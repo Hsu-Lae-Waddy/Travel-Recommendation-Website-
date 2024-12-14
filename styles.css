@@ -1,0 +1,115 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Navigation */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #b6b9bb;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #007bff;
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Recommendation Section */
+.recommendation {
+    display: flex;
+    gap: 10px;
+}
+
+.recommendation img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
+.hero {
+    background-image: url('./assets/pngtree-travel-around-the-world-travel-poster-template-picture-image_1017255.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    padding: 100px 20px; /* Padding for the section */
+    position: relative; /* Positioning context for pseudo-elements */
+}
+.ImagesDisplay{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+.ImagesDisplay:hover{
+    transform: scale(1.1); /* Scales the image to 110% */
+}
+#about{
+    text-align: center;
+}
