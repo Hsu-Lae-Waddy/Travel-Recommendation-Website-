@@ -12,3 +12,15 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
         alert('Please fill out all fields.');
     }
 });
+
+
+// Pay section//
+function showPaymentSection() {
+    const modal = document.getElementById("paymentModal");
+    modal.style.display = "flex"; // Show the modal
+}
+
+function hidePaymentSection() {
+    const modal = document.getElementById("paymentModal");
+    modal.style.display = "none"; // Hide the modal
+}
